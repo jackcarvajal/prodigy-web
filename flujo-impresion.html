@@ -1,0 +1,1027 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Calculadora de impresión 3D dental — Resinas especializadas, alta precisión. Cotiza y confirma tu pedido en línea. PRODIGY, Bogotá, Colombia.">
+    <meta name="keywords" content="Impresión 3D dental, resinas dentales, SLA dental, laboratorio dental Colombia, impresión dental Bogotá">
+    <meta property="og:title" content="PRODIGY | Impresión 3D Dental">
+    <meta property="og:description" content="Calculadora de impresión 3D dental — Resinas especializadas, alta precisión. Cotiza y confirma tu pedido en línea.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/prodigy-preview.jpg">
+    <meta property="og:url" content="https://prodigylab.co/flujo-impresion.html">
+    <meta name="geo.region" content="CO-DC">
+    <meta name="geo.placename" content="Bogotá">
+    <title>PRODIGY - Impresión 3D Dental</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/flujo-impresion.min.css">
+    <link rel="stylesheet" href="css/global-nav.min.css">
+</head>
+<body>
+    <!-- NAVBAR GLOBAL PRODIGY -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="index.html#servicios">SERVICIOS</a>
+                <a href="index.html#portfolio">PORTAFOLIO</a>
+                <a href="index.html#workflow-247">SUBIR DISEÑO</a>
+            </div>
+            <a href="index.html" class="nav-logo-box">
+                <h1>PRODIGY</h1>
+                <span>DIGITAL DENTISTRY</span>
+            </a>
+            <div class="nav-right">
+                <a href="index.html#production">PRODUCCIÓN CAM</a>
+                <a href="index.html#academy">ACADEMY</a>
+                <a href="seguimiento-caso.html">📦 SEGUIMIENTO</a>
+                <a href="https://wa.me/573212816716" class="nav-contact-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> CONTACTAR
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <!-- Menú Hamburguesa -->
+            <button class="hamburger-menu" onclick="toggleMenu()" title="Menú de navegación">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Botón Theme Toggle -->
+            <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn" title="Cambiar tema">
+                🌙
+            </button>
+            
+            <div class="header-logo">
+                <svg viewBox="0 0 120 120" style="width: 120px; height: 120px; display: block; margin: 0 auto 8px; filter: drop-shadow(0 0 15px rgba(217, 70, 166, 0.6));">
+                    <g stroke="#D946A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                        <rect x="25" y="90" width="70" height="8" fill="#1a1a1a" stroke="#D946A6"/>
+                        <rect x="30" y="98" width="60" height="4" fill="#2a2a2a"/>
+                        <rect x="35" y="40" width="50" height="50" rx="4" fill="#1a1a1a" stroke="#D946A6" stroke-width="2.5"/>
+                        <rect x="40" y="50" width="40" height="30" fill="rgba(217, 70, 166, 0.1)" stroke="#D946A6" stroke-width="1.5"/>
+                        <path d="M 55 68 Q 55 62 60 62 Q 65 62 65 68 Q 65 72 60 72 Q 55 72 55 68" fill="#FF8FB3" opacity="0.6"/>
+                        <rect x="58" y="45" width="4" height="15" fill="#2a2a2a" stroke="#D946A6"/>
+                        <circle cx="60" cy="45" r="3" fill="#D946A6"/>
+                        <rect x="58.5" y="38" width="3" height="7" fill="#FF8FB3"/>
+                        <path d="M 58 38 L 60 34 L 62 38" fill="#D946A6"/>
+                        <rect x="86" y="55" width="8" height="20" fill="#2a2a2a" stroke="#D946A6"/>
+                        <circle cx="90" cy="60" r="1.5" fill="#FF8FB3"/>
+                        <circle cx="90" cy="65" r="1.5" fill="#D946A6" opacity="0.5"/>
+                        <circle cx="90" cy="70" r="1.5" fill="#D946A6" opacity="0.5"/>
+                        <line x1="33" y1="45" x2="33" y2="35" stroke="#D946A6" stroke-width="1" opacity="0.6" stroke-dasharray="2,2"/>
+                        <line x1="28" y1="40" x2="38" y2="40" stroke="#D946A6" stroke-width="1" opacity="0.6" stroke-dasharray="2,2"/>
+                        <rect x="42" y="44" width="16" height="4" fill="#000" stroke="#D946A6" stroke-width="0.5"/>
+                        <text x="44" y="47" font-size="2.5" fill="#00FF00" font-family="monospace">88:88</text>
+                        <circle cx="45" cy="85" r="1.5" fill="#D946A6" opacity="0.4"/>
+                        <circle cx="75" cy="85" r="1.5" fill="#D946A6" opacity="0.4"/>
+                        <line x1="37" y1="88" x2="83" y2="88" stroke="#D946A6" stroke-width="1.5" opacity="0.3"/>
+                    </g>
+                </svg>
+                <h1 class="main-title"><i class="fas fa-microchip" style="font-size: 4rem; color: var(--gold-primary); filter: drop-shadow(0 0 20px var(--gold-glow-strong)); margin-right: 15px;"></i>PRODIGY 3D</h1>
+            </div>
+            <h2 class="tech-subtitle">Tecnología de Impresión Ultra-Precisa</h2>
+            <p class="system-desc">Sistema avanzado de órdenes 3D · Resinas biocompatibles de alta definición</p>
+        </header>
+
+        <main>
+            <div class="accordion active">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <h2>👤 1. DATOS DEL CLIENTE</h2>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                            <div class="form-group">
+                                <label>Nombre Cliente *</label>
+                                <input type="text" id="nombreCliente" placeholder="Dr. Juan Pérez">
+                                <span class="error-tooltip" id="error-nombreCliente"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>WhatsApp Cliente *</label>
+                                <input type="tel" id="whatsappCliente" placeholder="3001234567" maxlength="10" oninput="validatePhone(this)">
+                                <span class="error-tooltip" id="error-whatsappCliente"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Ciudad *</label>
+                                <input type="text" id="ciudad" placeholder="Bogotá">
+                                <span class="error-tooltip" id="error-ciudad"></span>
+                            </div>
+                        </div>
+                        
+                        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
+                            <div class="form-group">
+                                <label>Nombre Paciente *</label>
+                                <input type="text" id="nombrePaciente" placeholder="María González" maxlength="50">
+                                <span class="error-tooltip" id="error-nombrePaciente"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>¿Cómo nos conociste? *</label>
+                                <select id="origen" onchange="toggleOtroOrigen()">
+                                    <option value="">Seleccionar...</option>
+                                    <option value="Consultorio">Consultorio</option>
+                                    <option value="Recomendación">Recomendación</option>
+                                    <option value="Redes Sociales">Redes Sociales</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+                                <span class="error-tooltip" id="error-origen"></span>
+                            </div>
+                            <div class="form-group hidden" id="otroOrigenGroup">
+                                <label>Especificar *</label>
+                                <input type="text" id="otroOrigen" placeholder="Facebook, Instagram...">
+                                <span class="error-tooltip" id="error-otroOrigen"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion" id="acc-material">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <h2>💎 2. MATERIAL Y CANTIDAD</h2>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        
+                        <!-- BANNER DE ADVERTENCIA INTELIGENTE (Oculto por defecto) -->
+                        <div id="system-ux-warning" style="display: none; background: rgba(255, 102, 0, 0.08); border: 1px solid rgba(255, 102, 0, 0.4); padding: 12px 16px; border-radius: 8px; font-size: 0.8rem; gap: 12px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); align-items: flex-start;">
+                            <div style="font-size: 1.3rem; flex-shrink: 0;">⚠️</div>
+                            <div style="flex: 1;">
+                                <strong style="color: #ff9933; display: block; margin-bottom: 4px;">Bloqueador Detectado</strong>
+                                <span style="color: #ccc; font-size: 0.75rem;">Tu navegador o extensión está bloqueando funciones necesarias. Para enviar pedidos por WhatsApp, desactiva AdBlockers, bloqueadores de ventanas emergentes o extensiones de privacidad.</span>
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px;">
+                            <div class="form-group">
+                                <label>Cantidad de Unidades *</label>
+                                <input type="number" id="cantidad" min="1" value="1" onchange="limitarExtras(); calcularTotal(); updateTimeline();">
+                            </div>
+                            
+                            <div class="material-supply-card">
+                                <div class="toggle-header">
+                                    <h3>Uso de Resina Enviada por el Cliente</h3>
+                                    <label class="ios-switch">
+                                        <input type="checkbox" id="material-externo" onchange="toggleMaterialExterno()">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                                <!-- → #material-disclaimer-footer -->
+                            </div>
+                        </div>
+
+                        <div id="material-disclaimer-footer" style="display:none;margin-top:20px;padding:16px 20px;background:rgba(212,175,55,0.05);border-left:4px solid var(--gold-primary);border-radius:var(--radius-sm);"><p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.5;margin:0;"><i class="fas fa-info-circle" style="color:var(--gold-primary);margin-right:8px;"></i><strong>Pago único de $50.000 por orden.</strong> PRODIGY no se hace responsable por el consumo de material adicional necesario para pruebas de calibración de resinas externas. <strong>⚠️ Tiempo de entrega: +24h.</strong></p></div>
+
+                        <h4 style="color: var(--gold-primary); margin: 25px 0 15px; font-size: 1.05rem;">Selecciona la Categoría de Resina</h4>
+                        
+                        <!-- ADVERTENCIA TÉCNICA DE CALIBRACIÓN -->
+                        <div id="warning-calibracion-resina" style="display: none; background: rgba(255, 152, 0, 0.08); border: 1.5px solid rgba(255, 152, 0, 0.3); border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+                            <div style="display: flex; gap: 12px; align-items: flex-start;">
+                                <div style="font-size: 1.4rem; flex-shrink: 0;">⚠️</div>
+                                <div>
+                                    <strong style="color: #FF9800; font-size: 0.9rem; display: block; margin-bottom: 6px;">Nota Técnica - Calibración de Resinas</strong>
+                                    <p style="color: rgba(255, 255, 255, 0.85); font-size: 0.85rem; line-height: 1.5; margin: 0;">
+                                        Cada cambio de material requiere un proceso de <strong>calibración de resina e impresora</strong> para evitar fallos de impresión, lo que implica una carga de trabajo técnica y consumo de material de prueba.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="material-grid" style="grid-template-columns: repeat(6, 1fr); gap: 10px; max-width: 100%; margin: 0 auto;">
+                            <div class="material-card" onclick="selectMaterial('resina_modelo')">
+                                <div style="width:4.5rem;height:4.5rem;margin:0 auto 8px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #00d2ff;box-shadow:0 0 15px rgba(0,210,255,0.3);">
+                                    <i class="fas fa-layer-group" style="font-size:2.2rem;color:#00d2ff;"></i>
+                                </div>
+                                <h3>Modelos</h3>
+                                <p class="desc">Yeso Digital<br>y Troqueles</p>
+                            </div>
+                            <div class="material-card" onclick="selectMaterial('resina_temporal')">
+                                <div style="width:4.5rem;height:4.5rem;margin:0 auto 8px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #fbbf24;box-shadow:0 0 15px rgba(251,191,36,0.3);">
+                                    <i class="fas fa-stopwatch" style="font-size:2.2rem;color:#fbbf24;"></i>
+                                </div>
+                                <h3>Temporales</h3>
+                                <p class="desc">Provisionales<br>y Prototipos</p>
+                            </div>
+                            <div class="material-card" onclick="selectMaterial('resina_definitiva')">
+                                <div style="width:4.5rem;height:4.5rem;margin:0 auto 8px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #a78bfa;box-shadow:0 0 15px rgba(167,139,250,0.3);">
+                                    <i class="fas fa-gem" style="font-size:2.2rem;color:#a78bfa;"></i>
+                                </div>
+                                <h3>Definitivas</h3>
+                                <p class="desc">Carga Cerámica<br>Alta Gama</p>
+                            </div>
+                            <div class="material-card" onclick="selectMaterial('resina_calcinable')">
+                                <div style="width:4.5rem;height:4.5rem;margin:0 auto 8px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #fb923c;box-shadow:0 0 15px rgba(251,146,60,0.4);">
+                                    <i class="fas fa-fire-flame-curved" style="font-size:2.2rem;color:#fb923c;"></i>
+                                </div>
+                                <h3>Calcinables</h3>
+                                <p class="desc">Inyección<br>/ Fundición</p>
+                            </div>
+                            <div class="material-card" onclick="selectMaterial('resina_ferulas_guias')">
+                                <div style="width:4.5rem;height:4.5rem;margin:0 auto 8px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #10b981;box-shadow:0 0 15px rgba(16,185,129,0.3);">
+                                    <i class="fas fa-crosshairs" style="font-size:2.2rem;color:#10b981;"></i>
+                                </div>
+                                <h3>Férulas y Guías</h3>
+                                <p class="desc">Quirúrgicas<br>y Splint</p>
+                            </div>
+                            <div class="material-card" onclick="selectMaterial('resina_biomodelos')">
+                                <div style="width:4.5rem;height:4.5rem;margin:0 auto 8px;background:#1a1a1a;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #9ca3af;box-shadow:0 0 15px rgba(156,163,175,0.3);">
+                                    <i class="fas fa-skull" style="font-size:2.2rem;color:#d4c5a9;"></i>
+                                </div>
+                                <h3>Biomodelos (FDM)</h3>
+                                <p class="desc">Filamento<br>alta resistencia</p>
+                            </div>
+                        </div>
+
+                        <div class="btn-guia-tecnica" id="btn-guia-zirc" style="display:none;" onclick="openModal('modal-guia-resinas')"><i class="fas fa-flask"></i>&nbsp; Guía de Resinas: ¿Qué resina necesito? <span style="font-size:0.75rem;opacity:0.65;margin-left:6px;">Ver propiedades y usos →</span></div>
+                        <div id="submaterial-container" class="hidden"></div>
+                        
+                        <div id="otro-container" class="hidden" style="margin-top: 25px;">
+                            <div class="alert alert-info">
+                                ℹ️ <strong>Servicio Personalizado:</strong> Por favor contacte primero por WhatsApp para confirmar disponibilidad, proceso y precio. Luego cargue el archivo STL y comprobante de pago.
+                            </div>
+                            <div class="form-group" style="margin-top: 20px;">
+                                <label>Observaciones y Necesidades *</label>
+                                <textarea id="otro-observaciones" rows="6" style="width: 100%; padding: 15px; background: var(--bg-dark); border: 2px solid var(--border-subtle); border-radius: var(--radius-sm); color: var(--text-primary); font-size: 1rem; font-family: inherit; resize: vertical;" placeholder="Describe el trabajo que necesitas: tipo de material, proceso, cantidad de unidades, etc." maxlength="200"></textarea>
+                                <span class="error-tooltip" id="error-otro-observaciones"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion" id="acc-proceso">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <h2>📏 3. RESOLUCIÓN</h2>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-inner" id="resolucion-color-content">
+                        
+                        <div class="config-group" style="margin-bottom: 25px;">
+                            <span style="font-size: 0.8rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px;">Resolución de Impresión</span>
+                            <div style="display: flex; gap: 12px; margin-top: 8px;">
+                                <div onclick="selectResolucion(50, 0)" data-tipo="res-50" style="flex: 1; padding: 12px; background: rgba(0,0,0,0.3); border: 2px solid #444; border-radius: 8px; text-align: center; cursor: pointer;">
+                                    <div style="font-weight: 700; font-size: 0.95rem;">50 MICRAS</div>
+                                    <div style="font-size: 0.7rem; color: #888; margin-top: 3px;">Estándar - Mayor velocidad</div>
+                                </div>
+                                <div onclick="selectResolucion(25, 15000)" data-tipo="res-25" style="flex: 1; padding: 12px; background: rgba(0,0,0,0.3); border: 2px solid #444; border-radius: 8px; text-align: center; cursor: pointer;">
+                                    <div style="font-weight: 700; font-size: 0.95rem;">25 MICRAS</div>
+                                    <div style="color: var(--gold-primary); font-weight: 600; margin-top: 3px;">+$15.000</div>
+                                    <div style="font-size: 0.65rem; color: #888; margin-top: 1px;">Doble tiempo de máquina</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 25px; padding: 15px; background: rgba(0,210,255,0.08); border-left: 4px solid #00d2ff; border-radius: 8px;">
+                            <p style="color: var(--text-primary); font-size: 0.85rem; line-height: 1.6; margin: 0;">
+                                <strong>💡 Sobre los costos adicionales:</strong> Los recargos por resolución de 25 micras, encía flexible o componentes adicionales responden a la calibración micrométrica necesaria y al uso de resinas técnicas de alta precisión. Estos procesos aseguran que la fidelidad del archivo digital se traduzca en una pieza física de ajuste pasivo inmediato.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-section" id="timeline-section">
+                <h2>⏱️ 4. TIEMPOS DE ENTREGA</h2>
+                
+                <!-- SERVICIO EXPRESS -->
+                <div class="express-container" style="margin-bottom: 15px; padding: 12px; background: rgba(0, 210, 255, 0.1); border-radius: 8px; border: 1px solid var(--accent-cyan);">
+                    <label style="display: flex; align-items: center; cursor: pointer; justify-content: space-between;">
+                        <span>🚀 <strong>SERVICIO EXPRESS (+$30,000)</strong></span>
+                        <input type="checkbox" id="check-express" onchange="toggleExpress(this.checked)" style="width: 20px; height: 20px; cursor: pointer;">
+                    </label>
+                    <p style="font-size: 0.8rem; margin-top: 5px; opacity: 0.8; margin-bottom: 0;">Prioridad máxima en cola de impresión y post-procesado.</p>
+                </div>
+                
+                <div class="timeline-slots">
+                    <div class="timeline-slot disabled" data-slot="express" onclick="selectTimeSlot('express')">
+                        <span class="slot-badge">CORTE 9 AM</span>
+                        <h4>🚀 9:00 AM</h4>
+                        <p id="date-express">Selecciona material</p>
+                    </div>
+                    <div class="timeline-slot" data-slot="mediodia" onclick="selectTimeSlot('mediodia')">
+                        <span class="slot-badge">CORTE 12 PM</span>
+                        <h4>☀️ 12:00 PM</h4>
+                        <p id="date-mediodia">Selecciona material</p>
+                    </div>
+                    <div class="timeline-slot" data-slot="tarde" onclick="selectTimeSlot('tarde')">
+                        <span class="slot-badge">CORTE 5 PM</span>
+                        <h4>🌙 5:00 PM</h4>
+                        <p id="date-tarde">Selecciona material</p>
+                    </div>
+                </div>
+                <div class="alert alert-info hidden" id="alert-express">
+                    ℹ️ <strong>Express:</strong> Solo Zirconio/PMMA. Disponible hasta medianoche (00:00).
+                </div>
+                <div class="alert alert-warning hidden" id="alert-glaze">
+                    ⚠️ Requiere tiempo adicional para terminado.
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <h2>📂 5. ARCHIVOS & LOGÍSTICA</h2>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+
+                        <!-- ── BLOQUE 1: ARCHIVOS STL ─────────────────── -->
+                        <div style="background:rgba(0,97,255,0.04); border:1px solid rgba(0,97,255,0.2); border-radius:12px; padding:20px 18px; margin-bottom:18px;">
+                        <p style="margin:0 0 14px; font-size:0.78rem; font-weight:800; color:#4d9fff; text-transform:uppercase; letter-spacing:1.5px; display:flex; align-items:center; gap:7px;"><i class="fas fa-file-code"></i> Archivos STL / Diseño</p>
+
+                        <!-- ⚠️ BANNER SOP NOMENCLATURA -->
+                        <div style="background:linear-gradient(135deg,rgba(239,68,68,0.12),rgba(212,175,55,0.08)); border:1.5px solid rgba(239,68,68,0.55); border-radius:10px; padding:14px 16px; margin-bottom:18px; display:flex; gap:12px; align-items:flex-start;">
+                            <i class="fas fa-triangle-exclamation" style="color:#ef4444; font-size:1.4rem; margin-top:2px; flex-shrink:0;"></i>
+                            <div>
+                                <p style="margin:0 0 5px; font-size:0.88rem; font-weight:900; color:#ef4444; text-transform:uppercase; letter-spacing:0.5px;">⚠️ Nombra tus archivos antes de subir</p>
+                                <p style="margin:0; font-size:0.82rem; color:#e2e8f0; line-height:1.6;">Usa el nombre del paciente en el archivo o comprímelos en un <strong style="color:#D4AF37;">.ZIP</strong> con su nombre.<br>
+                                <span style="color:#94a3b8;">Ejemplo: </span><code style="background:rgba(255,255,255,0.08); color:#fbbf24; padding:2px 7px; border-radius:4px; font-size:0.8rem;">JuanLopez_MaxilarSup.stl</code> &nbsp;o&nbsp; <code style="background:rgba(255,255,255,0.08); color:#fbbf24; padding:2px 7px; border-radius:4px; font-size:0.8rem;">JuanLopez_Caso.zip</code><br>
+                                <span style="color:#64748b; font-size:0.78rem;">Sin nombre → no podemos asignar el caso correctamente.</span></p>
+                            </div>
+                        </div>
+
+                        <!-- BOTÓN DROPBOX PRIMARIO -->
+                        <div style="margin-bottom: 22px;">
+                            <a href="https://www.dropbox.com/request/zAQNVD0AyQyfUgOshArY" target="_blank" rel="noopener"
+                               onclick="document.getElementById('linkSTL').value='https://www.dropbox.com/request/zAQNVD0AyQyfUgOshArY'; document.getElementById('linkSTL').style.borderColor='#0061ff'; document.getElementById('link-feedback').innerHTML='<i class=\'fas fa-circle-check\' style=\'color:#0061ff\'></i> Archivos en camino al Buzón PRODIGY'; document.getElementById('link-feedback').style.color='#0061ff';"
+                               style="display:flex; align-items:center; justify-content:center; gap:12px; width:100%; padding:18px 20px; background:linear-gradient(135deg,#0061ff,#0041aa); color:#fff; text-decoration:none; border-radius:12px; font-size:1rem; font-weight:800; letter-spacing:0.3px; box-shadow:0 6px 24px rgba(0,97,255,0.4); transition:all 0.25s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 10px 32px rgba(0,97,255,0.55)'" onmouseout="this.style.transform='';this.style.boxShadow='0 6px 24px rgba(0,97,255,0.4)'">
+                                <svg width="28" height="24" viewBox="0 0 528 444" fill="white"><path d="M264 18L132 101l132 83 132-83zM0 184l132 83 132-83-132-83zm396-83l-132 83 132 83 132-83zM132 285l132 83 132-83-132-83zm132 101l132-83-132-83-132 83z"/></svg>
+                                📤 Subir al Buzón PRODIGY (Recomendado)
+                            </a>
+                            <p style="text-align:center; margin:8px 0 0; color:#888; font-size:0.78rem;">Rápido, seguro y sin crear cuentas. Los archivos llegan directo a nosotros.</p>
+                        </div>
+
+                        <!-- SEPARADOR OTRAS OPCIONES -->
+                        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+                            <div style="flex:1; height:1px; background:rgba(255,255,255,0.1);"></div>
+                            <span style="color:#666; font-size:0.78rem; font-weight:600; white-space:nowrap;">O usa otra plataforma</span>
+                            <div style="flex:1; height:1px; background:rgba(255,255,255,0.1);"></div>
+                        </div>
+
+                        <!-- BANNER INSTRUCCIONES -->
+                        <div style="background: rgba(0,210,255,0.06); border: 1px solid rgba(0,210,255,0.25); border-radius: 10px; padding: 16px 18px; margin-bottom: 20px;">
+                            <strong style="display: flex; align-items: center; gap: 8px; color: var(--accent-cyan); margin-bottom: 10px; font-size:0.9rem;">
+                                <i class="fas fa-circle-info"></i> Si prefieres Drive o WeTransfer:
+                            </strong>
+                            <ol style="margin: 0; padding-left: 18px; color: #ccc; font-size: 0.85rem; line-height: 1.8;">
+                                <li>Sube tus archivos a <strong style="color:#fff;">Google Drive</strong> o <strong style="color:#fff;">WeTransfer</strong></li>
+                                <li>En Drive: clic derecho → <em>Compartir</em> → <em>"Cualquier persona con el enlace"</em></li>
+                                <li>Copia el enlace y pégalo abajo (<kbd style="background:#333;padding:1px 5px;border-radius:3px;font-size:0.8rem;">Ctrl+V</kbd>)</li>
+                            </ol>
+                            <p style="margin: 10px 0 0; font-size:0.78rem; color:#f87171; font-weight:600;">
+                                <i class="fas fa-triangle-exclamation"></i> Enlace privado = el tiempo de entrega NO inicia hasta que lo hagamos público.
+                            </p>
+                        </div>
+
+                        <!-- CAMPO LINK STL -->
+                        <div class="form-group">
+                            <label>Link STL/Diseño (Público) *</label>
+                            <input type="url" id="linkSTL"
+                                placeholder="📋 Pega aquí el enlace — solo Drive o WeTransfer"
+                                autocomplete="off"
+                                onkeydown="if(event.key!=='Tab'&&event.key!=='Backspace'&&event.key!=='Delete'&&!(event.ctrlKey||event.metaKey)){event.preventDefault();}"
+                                onpaste="setTimeout(()=>{ const v=this.value; const ok=v.includes('drive.google.com')||v.includes('wetransfer.com')||v.includes('we.tl')||v.includes('dropbox.com'); const fb=document.getElementById('link-feedback'); if(v.length>5){ STATE.link=v; if(ok){ this.style.borderColor='#10b981'; fb.innerHTML='<i class=\'fas fa-circle-check\' style=\'color:#10b981\'></i> Enlace válido'; fb.style.color='#10b981'; }else{ this.style.borderColor='#f87171'; fb.innerHTML='<i class=\'fas fa-triangle-exclamation\' style=\'color:#f87171\'></i> Solo se aceptan Drive o WeTransfer'; fb.style.color='#f87171'; } }else{ this.style.borderColor=''; fb.innerHTML=''; } },150);"
+                                style="width:100%;padding:12px;background:var(--bg-dark);border:1px solid var(--border-subtle);border-radius:8px;color:#fff;transition:border-color 0.3s;">
+                            <div id="link-feedback" style="margin-top:6px;font-size:0.82rem;min-height:18px;"></div>
+                        </div>
+
+                        <!-- LINKS RÁPIDOS CON BRANDING -->
+                        <div style="display:flex; gap:10px; margin: 5px 0 20px;">
+                            <a href="https://drive.google.com" target="_blank" style="flex:1; display:flex; align-items:center; justify-content:center; gap:8px; padding:10px; background:rgba(66,133,244,0.1); border:1px solid rgba(66,133,244,0.4); border-radius:8px; color:#4285f4; text-decoration:none; font-size:0.85rem; font-weight:700; transition:background 0.2s;" onmouseover="this.style.background='rgba(66,133,244,0.2)'" onmouseout="this.style.background='rgba(66,133,244,0.1)'">
+                                <i class="fab fa-google-drive"></i> Google Drive
+                            </a>
+                            <a href="https://wetransfer.com" target="_blank" style="flex:1; display:flex; align-items:center; justify-content:center; gap:8px; padding:10px; background:rgba(0,189,165,0.1); border:1px solid rgba(0,189,165,0.4); border-radius:8px; color:#00bda5; text-decoration:none; font-size:0.85rem; font-weight:700; transition:background 0.2s;" onmouseover="this.style.background='rgba(0,189,165,0.2)'" onmouseout="this.style.background='rgba(0,189,165,0.1)'">
+                                <i class="fas fa-cloud-arrow-up"></i> WeTransfer
+                            </a>
+                        </div>
+
+                        </div><!-- /bloque archivos STL -->
+
+                        <!-- ── BLOQUE 2: COMPROBANTE DE PAGO ─────────── -->
+                        <div style="background:rgba(212,175,55,0.04); border:1px solid rgba(212,175,55,0.2); border-radius:12px; padding:20px 18px; margin-bottom:18px;">
+                        <p style="margin:0 0 14px; font-size:0.78rem; font-weight:800; color:var(--gold-primary); text-transform:uppercase; letter-spacing:1.5px; display:flex; align-items:center; gap:7px;"><i class="fas fa-receipt"></i> Comprobante de Pago</p>
+
+                        <div class="form-group">
+                            <label style="display:none;">Comprobante de Pago *</label>
+                            <div id="drop-zone"
+                                onclick="document.getElementById('comprobante').click()"
+                                ondragover="event.preventDefault(); this.style.borderColor='var(--gold-primary)'; this.style.background='rgba(212,175,55,0.08)';"
+                                ondragleave="this.style.borderColor=''; this.style.background='';"
+                                ondrop="event.preventDefault(); this.style.borderColor=''; this.style.background=''; handleFileUpload({files: event.dataTransfer.files}, true);"
+                                style="cursor:pointer; border:2px dashed var(--border-subtle); border-radius:10px; padding:24px 16px; text-align:center; transition:all 0.25s; background:var(--bg-dark); position:relative;">
+                                <input type="file" id="comprobante" accept="image/*,.pdf" onchange="handleFileUpload(this, false)" style="display:none;">
+                                <div id="comprobante-placeholder">
+                                    <i class="fas fa-cloud-arrow-up" style="font-size:2rem; color:var(--gold-primary); display:block; margin-bottom:8px;"></i>
+                                    <p style="margin:0; color:#ccc; font-size:0.9rem;"><strong style="color:#fff;">Arrastra el comprobante aquí</strong> o haz clic</p>
+                                    <p style="margin:6px 0 0; color:#666; font-size:0.75rem;">PNG, JPG, PDF · Máx. 10 MB</p>
+                                </div>
+                                <div id="comprobante-preview" style="display:none; align-items:center; gap:12px; justify-content:center;">
+                                    <img id="preview-img" src="" alt="preview" style="max-height:60px; max-width:80px; border-radius:6px; border:1px solid #444; object-fit:cover;">
+                                    <div style="text-align:left;">
+                                        <p id="file-name" class="file-name" style="margin:0; color:var(--success); font-weight:700; font-size:0.9rem;"></p>
+                                        <p style="margin:4px 0 0; color:#666; font-size:0.75rem;">Clic para cambiar</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="alert alert-error" style="margin-top:8px;">
+                                <i class="fas fa-ban"></i> Sin comprobante NO se inicia producción
+                            </div>
+                        </div>
+                        </div><!-- /bloque comprobante -->
+
+                        <!-- ── BLOQUE 3: ENVÍO ────────────────────────── -->
+                        <div class="form-group" style="margin-top: 4px;">
+                            <label>Método de Envío *</label>
+                            <select id="envio" onchange="calcularTotal()">
+                                <option value="retiro">Retiro en sede (Gratis)</option>
+                                <option value="app">App Uber/Picap (Cliente paga)</option>
+                                <option value="nacional">Envío Nacional (+$15.000)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <h2>🛡️ VERIFICACIÓN & ENVÍO</h2>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <div class="verification-checks">
+                            <h4>CONFIRMACIÓN OBLIGATORIA</h4>
+                            <div class="check-item">
+                                <input type="checkbox" id="check1" onchange="validateChecks()">
+                                <label for="check1">Cantidad de archivos STL = cantidad pagada</label>
+                            </div>
+                            <div class="check-item">
+                                <input type="checkbox" id="check2" onchange="validateChecks()">
+                                <label for="check2">Errores de diseño (GIGO) son responsabilidad del cliente</label>
+                            </div>
+                            <div class="check-item">
+                                <input type="checkbox" id="check3" onchange="validateChecks()">
+                                <label for="check3">Tiempos inician tras verificar el pago</label>
+                            </div>
+                        </div>
+
+                        <p style="text-align: center; margin: 20px 0;">
+                            <a href="terminos-y-legal.html" target="_blank" style="color: var(--gold-primary); text-decoration: underline; cursor: pointer;">📜 Ver Términos y Condiciones Completos</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="calculator">
+            <h3>💰 RESUMEN</h3>
+
+            <div class="calc-line">
+                <span class="label">Material:</span>
+                <span class="value" id="calc-material">-</span>
+            </div>
+            <div class="calc-line">
+                <span class="label">Proceso:</span>
+                <span class="value" id="calc-proceso">-</span>
+            </div>
+            <div class="calc-line" id="line-color">
+                <span class="label">Color VITA:</span>
+                <span class="value" id="calc-color">-</span>
+            </div>
+            <div class="calc-line">
+                <span class="label">Cantidad:</span>
+                <span class="value" id="calc-cantidad">0</span>
+            </div>
+            <div class="calc-line">
+                <span class="label">Subtotal:</span>
+                <span class="value" id="calc-subtotal">$0</span>
+            </div>
+            <div class="calc-line hidden" id="line-express">
+                <span class="label">Express:</span>
+                <span class="value" id="calc-express">$0</span>
+            </div>
+            <div class="calc-line hidden" id="line-adicionales">
+                <span class="label">Adicionales:</span>
+                <span class="value" id="calc-adicionales">$0</span>
+            </div>
+            <div class="calc-line hidden" id="line-envio">
+                <span class="label">Envío:</span>
+                <span class="value" id="calc-envio">$0</span>
+            </div>
+            <div class="calc-line hidden" id="line-ingreso">
+                <span class="label">📥 Ingreso:</span>
+                <span class="value" id="calc-ingreso" style="font-size:0.75rem;">-</span>
+            </div>
+            <div class="calc-line hidden" id="line-entrega-fecha">
+                <span class="label">📦 Entrega:</span>
+                <span class="value" id="calc-entrega-fecha" style="font-size:0.75rem;color:var(--gold-primary);">-</span>
+            </div>
+            <div class="calc-line">
+                <span class="label">TOTAL:</span>
+                <span class="value calc-total" id="calc-total">$0</span>
+            </div>
+            
+            <!-- MENSAJE DE CALIBRACIÓN DE LUJO -->
+            <div id="calibration-notice" class="hidden" style="margin-top: 15px; padding: 12px; background: rgba(217, 70, 166, 0.08); border: 1px solid rgba(217, 70, 166, 0.3); border-radius: 8px; font-size: 0.75rem; color: var(--gold-light); line-height: 1.4;">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                    <i class="fas fa-cog fa-spin" style="color: var(--gold-primary);"></i>
+                    <strong>Proceso Técnico Iniciado</strong>
+                </div>
+                <span style="color: rgba(255, 255, 255, 0.7); font-size: 0.7rem;">
+                    Iniciando calibración de resina e impresora 3D para garantizar precisión absoluta...
+                </span>
+            </div>
+
+            <div class="payment-banner">
+                💵 PAGO 100% ANTICIPADO
+            </div>
+
+            <div class="payment-buttons">
+                <button class="payment-btn btn-nequi" onclick="showPaymentModal('nequi')">
+                    💙 NEQUI
+                </button>
+                <button class="payment-btn btn-davi" onclick="showPaymentModal('daviplata')">
+                    💗 DAVIPLATA
+                </button>
+                <button class="payment-btn btn-banco" onclick="showPaymentModal('banco')">
+                    🏦 BRE-B
+                </button>
+            </div>
+
+            <!-- CONFIRMACIÓN DE PAGO - ACORDEÓN -->
+            <div class="accordion" style="margin-top: 20px; border: 2px solid #8B7355;">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <h2 style="font-size: 0.95rem;"><i class="fa-solid fa-receipt"></i> CONFIRMACIÓN DE PAGO</h2>
+                    <span class="accordion-icon">▼</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-inner">
+                        <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 15px;">
+                            ⚠️ Completa estos datos para verificar tu pago
+                        </p>
+                        <select id="pago_metodo" style="width:100%; background:var(--bg-dark); color:white; border:2px solid var(--border-subtle); padding:10px; border-radius:var(--radius-sm); margin-bottom:10px; font-size:0.9rem; cursor:pointer;">
+                            <option value="">¿Por dónde pagaste?</option>
+                            <option value="Nequi">💙 Nequi</option>
+                            <option value="Daviplata">💗 Daviplata</option>
+                            <option value="Nu">🏦 Nu</option>
+                            <option value="Breb">🏦 Breb</option>
+                            <option value="PSE">💳 PSE / Tarjeta</option>
+                            <option value="Otro">💵 Otro</option>
+                        </select>
+                        <input type="text" id="pago_titular" placeholder="Nombre del titular de la cuenta" maxlength="50" style="width:100%; background:var(--bg-dark); color:white; border:2px solid var(--border-subtle); padding:10px; border-radius:var(--radius-sm); margin-bottom:10px; font-size:0.9rem;">
+                        <input type="text" id="pago_referencia" placeholder="Número de comprobante / Ref (opcional)" maxlength="30" style="width:100%; background:var(--bg-dark); color:white; border:2px solid var(--border-subtle); padding:10px; border-radius:var(--radius-sm); font-size:0.9rem;">
+                    </div>
+                </div>
+            </div>
+
+            <button class="payment-btn btn-submit" id="btn-submit" onclick="submitOrder()" disabled>
+                🚀 GENERAR ORDEN 🎯
+            </button>
+
+            <div style="margin-top: 20px; padding: 15px; background: rgba(255,215,0,0.05); border: 1px solid rgba(255,215,0,0.2); border-radius: 8px; font-size: 0.85rem; color: #ccc;">
+                <strong style="color: var(--gold-primary); display: block; margin-bottom: 8px;"><i class="fas fa-book"></i> Especificaciones y Protocolos Técnicos</strong>
+                <ul style="padding-left: 20px; margin-bottom: 12px; line-height: 1.5;">
+                    <li><strong>Calcinables:</strong> Protocolo de quemado: Subida lenta (5°C/min) hasta 750°C. Mantener 1 hora. Color según stock.</li>
+                    <li><strong>Férulas:</strong> Biocompatibilidad Clase IIa. No esterilizar en autoclave a más de 121°C.</li>
+                    <li><strong>Biomodelos:</strong> Impresión FDM (Filamento). No exponer a calor directo > 60°C.</li>
+                </ul>
+                <div style="font-size: 0.75rem; opacity: 0.8; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 8px;">
+                    <em>⚠️ Disclaimer: PRODIGY garantiza precisión dimensional. El éxito del colado y adaptación clínica dependen del manejo técnico del profesional. No nos hacemos responsables por fallos en el investido.</em>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <div class="modal" id="modal-payment">
+        <div class="modal-content" style="position:relative;">
+            <button class="modal-close-x" onclick="closeModal('modal-payment')" title="Cerrar"><i class="fas fa-times"></i></button>
+            <h3 id="modal-payment-title">Información de Pago</h3>
+            <div id="modal-payment-body"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-confirmation">
+        <div class="modal-content" style="max-width: 900px;">
+            <div style="text-align: center; margin-bottom: 25px;">
+                <div style="font-size: 3rem; margin-bottom: 10px;">🚀</div>
+                <h3 style="color: var(--gold-primary); font-size: 1.5rem; margin: 0;">CONFIRMAR ORDEN</h3>
+            </div>
+            
+            <div id="confirmation-body" style="background: rgba(0,0,0,0.3); padding: 20px; border-radius: 12px; margin-bottom: 20px; text-align: left;"></div>
+            
+            <div class="alert alert-info" style="margin: 20px 0; background: rgba(0, 255, 65, 0.1); border: 2px solid var(--neon-green); border-radius: 12px; padding: 18px; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 10px;">💬 ➜ 📱</div>
+                <strong style="color: var(--neon-green); font-size: 1.1rem; display: block; margin-bottom: 8px;">Siguiente Paso: WhatsApp</strong>
+                <p style="margin: 0; color: var(--text-primary); line-height: 1.6; font-size: 0.95rem;">
+                    Al confirmar, se abrirá <strong>WhatsApp</strong> con tu orden pre-cargada.<br>
+                    Solo debes <strong>enviar el mensaje</strong> para completar el proceso.
+                </p>
+            </div>
+            
+            <div style="margin: 15px 0; padding: 14px 16px; background: rgba(0,255,65,0.05); border-radius: 10px; border: 1px solid rgba(0,255,65,0.15);">
+                <label style="display:flex; align-items:flex-start; gap:12px; cursor:pointer; color:var(--text-secondary); font-size:0.88rem; line-height:1.5;">
+                    <input type="checkbox" id="check-terminos-confirm" onchange="toggleWhatsAppBtn(this)" style="width:18px;height:18px;flex-shrink:0;margin-top:2px;cursor:pointer; accent-color:var(--neon-green);">
+                    <span>He leído y acepto los <span onclick="showTerms();event.stopPropagation();" style="color:var(--gold-primary);cursor:pointer;text-decoration:underline;">Términos y Condiciones</span> del servicio PRODIGY.</span>
+                </label>
+            </div>
+            <div class="modal-buttons" style="display: flex; gap: 12px; margin-top: 20px;">
+                <button class="modal-btn modal-btn-cancel" onclick="closeModal('modal-confirmation')" style="flex: 1;">Cancelar</button>
+                <button id="btn-whatsapp-confirm" class="modal-btn modal-btn-confirm" onclick="sendToWhatsApp()" disabled style="flex: 2; background: linear-gradient(135deg, var(--neon-green) 0%, #00CC35 100%); font-weight: 700; opacity:0.5; cursor:not-allowed;">
+                    🚀 CONFIRMAR Y ABRIR WHATSAPP
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-terms">
+        <div class="modal-content" style="max-width: 800px;">
+            <h3>📜 TÉRMINOS Y CONDICIONES</h3>
+            <div class="policies-container alert alert-warning" style="display:flex;flex-direction:column;background:var(--bg-dark);border:2px solid var(--warning);padding:20px;margin:20px 0;border-radius:var(--radius-md);">
+                <h4 style="margin-bottom:10px;color:var(--warning);">⚠️ Políticas de Operación</h4>
+                <ul style="padding-left:20px;line-height:1.6;color:var(--text-secondary);list-style:disc;">
+                    <li style="margin-bottom:8px"><strong>Slot Express:</strong> Disponible solo si hay cupo al momento del pedido. Corte 9:00 AM.</li>
+                    <li style="margin-bottom:8px"><strong>Material Externo:</strong> Calibración y resultados no garantizados por PRODIGY.</li>
+                    <li style="margin-bottom:8px"><strong>Calidad del STL:</strong> Archivos con errores de malla pueden generar fallas en impresión no reembolsables.</li>
+                </ul>
+                
+                <h4 style="margin: 20px 0 10px 0;color:#00d2ff;">🔍 Verificación de Información</h4>
+                <div style="padding: 15px; background: rgba(0,210,255,0.08); border-left: 4px solid #00d2ff; border-radius: 6px; margin-top: 10px;">
+                    <p style="color:var(--text-primary); line-height:1.6; margin:0;">
+                        <strong>IMPORTANTE:</strong> Verifique que toda la información seleccionada (material, tipo, color, extras, cantidad) sea correcta y acorde a lo requerido <strong>ANTES de confirmar la orden</strong>. 
+                        Errores u omisiones en la configuración pueden generar <strong>retrasos en producción y costos adicionales</strong> que no fueron contemplados al momento de la cotización inicial.
+                    </p>
+                    <p style="color:#ff9800; line-height:1.6; margin-top: 10px; margin-bottom: 0;">
+                        ⚠️ El trabajo <strong>NO iniciará</strong> hasta que se cancele el <strong>100% del valor</strong> de la orden confirmada.
+                    </p>
+                </div>
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-confirm" onclick="closeModal('modal-terms')" style="width: 100%;">Entendido</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-exito">
+        <div class="modal-content" style="background:linear-gradient(145deg,#0a0a0a,#111);border:1px solid var(--gold-primary);border-radius:16px;padding:35px;text-align:center;max-width:480px;">
+            <div style="font-size:3rem;margin-bottom:15px;">✅</div>
+            <h2 style="color:var(--gold-primary);margin-bottom:8px;">¡Orden Registrada!</h2>
+            <p style="color:var(--text-secondary);font-size:0.9rem;margin-bottom:20px;">Tu caso ha sido ingresado al sistema correctamente.</p>
+            <div class="pay-box" style="text-align:left;font-size:0.9rem;margin-bottom:15px;">
+                <p><strong style="color:var(--gold-primary);">ID Orden:</strong> <span id="exito-orden-id">—</span></p>
+                <p style="margin-top:6px;"><strong style="color:var(--gold-primary);">Cliente:</strong> <span id="exito-cliente">—</span></p>
+                <p style="margin-top:6px;"><strong style="color:var(--gold-primary);">Total:</strong> <span id="exito-total">—</span></p>
+            </div>
+            <p style="font-size:0.8rem;color:var(--text-secondary);margin-bottom:15px;">Selecciona tu método de pago:</p>
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;">
+                <button class="payment-btn btn-nequi" onclick="showPaymentModal('nequi');closeModal('modal-exito');">💙 NEQUI</button>
+                <button class="payment-btn btn-davi" onclick="showPaymentModal('daviplata');closeModal('modal-exito');">💗 DAVIPLATA</button>
+                <button class="payment-btn btn-banco" onclick="showPaymentModal('banco');closeModal('modal-exito');">🏦 BRE-B</button>
+            </div>
+            <button class="pay-copy" style="width:100%;padding:12px;" onclick="closeModal('modal-exito');location.reload();">+ Nueva Orden</button>
+        </div>
+    </div>
+    <!-- Overlay del menú -->
+    <div class="nav-overlay" id="nav-overlay" onclick="toggleMenu()"></div>
+    
+    <!-- Menú Lateral -->
+    <nav class="nav-menu" id="nav-menu">
+        <div class="nav-menu-header">
+            <button class="nav-close-btn" onclick="toggleMenu()" title="Cerrar">✕</button>
+            <div style="font-size:1.5rem;margin-bottom:3px;">🧭</div>
+            <h3>NAVEGACIÓN</h3>
+        </div>
+        <div class="nav-menu-items">
+            <div class="nav-item" onclick="scrollToSection('datos-cliente')">
+                <i class="fas fa-user"></i>
+                <span>Datos Cliente</span>
+            </div>
+            <div class="nav-item" onclick="scrollToSection('material')">
+                <i class="fas fa-gem"></i>
+                <span>Material</span>
+            </div>
+            <div class="nav-item" onclick="scrollToSection('procesos')">
+                <i class="fas fa-cog"></i>
+                <span>Procesos</span>
+            </div>
+            <div class="nav-item" onclick="scrollToSection('tiempos')">
+                <i class="fas fa-clock"></i>
+                <span>Entrega</span>
+            </div>
+            <div class="nav-item" onclick="scrollToSection('archivos')">
+                <i class="fas fa-file-upload"></i>
+                <span>Archivos STL</span>
+            </div>
+            <div class="nav-item" onclick="scrollToSection('resumen')">
+                <i class="fas fa-calculator"></i>
+                <span>Resumen</span>
+            </div>
+            <div class="nav-item full-width" onclick="showHelp();toggleMenu();">
+                <i class="fas fa-question-circle"></i>
+                <span>Ayuda Rápida</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Botón Scroll to Top -->
+    <button class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()" title="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Botones Flotantes -->
+    <div class="floating-buttons">
+        <button class="floating-btn translate-btn" onclick="translatePage()" title="Traducir página">
+            <i class="fas fa-language"></i>
+        </button>
+        <button class="floating-btn help-btn" onclick="showHelp()" title="Ayuda">
+            <i class="fas fa-question"></i>
+        </button>
+    </div>
+
+
+    <!-- MODAL: GUÍA CLÍNICA DE MODELOS 3D -->
+    <div id="modal-guia-modelos" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div class="modal-content" style="background: var(--bg-card); width: 95%; max-width: 900px; max-height: 90vh; overflow-y: auto; border-radius: 12px; border: 1px solid var(--border-color); padding: 30px; position: relative;">
+            
+            <button onclick="document.getElementById('modal-guia-modelos').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: none; border: none; color: #ffffff; font-size: 1.5rem; cursor: pointer;">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2 style="color: var(--accent-neon); margin-bottom: 20px; text-align: center; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+                <i class="fa-solid fa-layer-group"></i> Guía Clínica: Modelos 3D
+            </h2>
+
+            <div style="display: grid; gap: 20px; color: var(--text-primary); font-size: 0.95rem; line-height: 1.6;">
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">1. Z-Model Base</strong>
+                    <p>Modelo sólido de alta precisión. Ideal para diagnóstico, montaje en articulador y adaptación de prótesis fijas simples. Acabado mate para evitar reflejos durante la evaluación óptica.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">2. Termoformado / Alineadores</strong>
+                    <p>Impreso con resina de alto impacto y resistencia térmica. Diseñado para soportar el calor y la presión de máquinas estampadoras sin sufrir deformaciones.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">3. Encía Flexible / Gingiva Mask</strong>
+                    <p>Modelo maestro rígido que incluye una sección anatómica de encía removible (material tipo silicona). Fundamental en implantología para evaluar perfiles de emergencia reales.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">4. Troquelado / Dieless</strong>
+                    <p>Sistema alveolar donde los muñones son removibles e independientes. Permite al técnico trabajar los puntos de contacto interproximales y el ajuste de márgenes con visión 360°.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">5. Geller para Carillas</strong>
+                    <p>Modelo de extrema precisión para el sector anterior. Los alveolos están preparados para individualizar el trabajo de cada carilla o lente cerámico con máxima exigencia estética.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">6. Mock-Up Motivacional</strong>
+                    <p>Modelo que incluye el diseño digital de la nueva sonrisa (Encerado). Se utiliza clínicamente para fabricar la llave de silicona palatina e inyectar resina bisacrílica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: GUÍA CLÍNICA DE TEMPORALES 3D -->
+    <div id="modal-guia-temporales" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div class="modal-content" style="background: var(--bg-card); width: 95%; max-width: 900px; max-height: 90vh; overflow-y: auto; border-radius: 12px; border: 1px solid var(--border-color); padding: 30px; position: relative;">
+            
+            <button onclick="document.getElementById('modal-guia-temporales').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: none; border: none; color: #ffffff; font-size: 1.5rem; cursor: pointer;">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2 style="color: var(--accent-neon); margin-bottom: 20px; text-align: center; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+                <i class="fa-solid fa-tooth"></i> Guía Clínica: Temporales 3D
+            </h2>
+
+            <div style="display: grid; gap: 20px; color: var(--text-primary); font-size: 0.95rem; line-height: 1.6;">
+                <div style="background: rgba(217, 70, 166, 0.05); padding: 20px; border-radius: 8px; border: 2px solid var(--accent-neon); text-align: center;">
+                    <i class="fa-solid fa-award" style="font-size: 2rem; color: var(--accent-neon); margin-bottom: 10px;"></i>
+                    <strong style="display: block; font-size: 1.2rem; color: var(--accent-neon); margin-bottom: 8px;">MAQUILA DIGITAL PROFESIONAL</strong>
+                    <p style="margin: 0;">Nuestros temporales se fabrican bajo normas de maquila digital. No incluyen ajustes oclusales manuales. La barra de verificación es una herramienta de calibración para asegurar la pasividad de estructuras sobre implantes.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">1. Corona Temporal</strong>
+                    <p>Provisionales estéticos de uso corto plazo (2-4 semanas). Resina de grado médico certificada.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">2. Try-In Prototipo</strong>
+                    <p>Prototipo monocolor para prueba de 24 horas. Verifica ajuste y oclusión antes de fabricación definitiva. <strong>No apto para uso prolongado</strong> - solo validación inmediata.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">3. Barra de Verificación</strong>
+                    <p>Herramienta para verificar pasividad en estructuras sobre implantes. Asegura coincidencia 100% entre modelo digital y realidad clínica antes de fabricación definitiva.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">4. Rodete de Registro Digital</strong>
+                    <p>Fabricado en <strong>Resina Draft/Pro-Base</strong> por su nula deformación y rigidez excepcional. Ideal para toma de dimensión vertical con máxima estabilidad dimensional y facilidad de ajuste en clínica.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-neon);">
+                    <strong style="font-size: 1.1rem; color: var(--accent-neon);">5. BioTemp Larga Duración</strong>
+                    <p>Temporales biocompatibles reforzados para 3-6 meses en boca. Micro-relleno cerámico con excelente pulido y estabilidad de color.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: GUÍA CLÍNICA DE FÉRULAS Y GUÍAS QUIRÚRGICAS -->
+    <div id="modal-guia-ferulas" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div class="modal-content" style="background: var(--bg-card); width: 95%; max-width: 900px; max-height: 90vh; overflow-y: auto; border-radius: 12px; border: 1px solid var(--border-color); padding: 30px; position: relative;">
+            
+            <button onclick="document.getElementById('modal-guia-ferulas').style.display='none'" style="position: absolute; top: 15px; right: 15px; background: none; border: none; color: #ffffff; font-size: 1.5rem; cursor: pointer;">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2 style="color: #10b981; margin-bottom: 20px; text-align: center; border-bottom: 1px solid rgba(16,185,129,0.3); padding-bottom: 10px;">
+                <i class="fa-solid fa-crosshairs"></i> Guía Clínica: Férulas y Guías Quirúrgicas
+            </h2>
+
+            <div style="display: grid; gap: 20px; color: var(--text-primary); font-size: 0.95rem; line-height: 1.6;">
+
+                <div style="background: rgba(16,185,129,0.07); padding: 20px; border-radius: 8px; border: 2px solid #10b981; text-align: center;">
+                    <i class="fa-solid fa-shield-virus" style="font-size: 2rem; color: #10b981; margin-bottom: 10px; display:block;"></i>
+                    <strong style="display: block; font-size: 1.1rem; color: #10b981; margin-bottom: 8px;">BIOCOMPATIBILIDAD CLASE IIa</strong>
+                    <p style="margin: 0; color: #ccc;">Dispositivos intraorales fabricados con resinas certificadas Clase IIa. Ausencia total de citotoxicidad. <strong style="color:#fff;">No esterilizar en autoclave a más de 121°C.</strong> Limpiar con agua fría y cepillo suave o solución de ortodoncia.</p>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid #10b981;">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">1. Férula Miorrelajante / Descarga Rígida</strong>
+                    <p style="color:#9ca3af; margin-top:6px;">Férula oclusal de alta resistencia al impacto, totalmente cristalina y rígida. Ideal para pacientes con bruxismo severo, apretamiento nocturno o parafunciones extremas. También funciona como retenedor post-ortodoncia de larga duración.</p>
+                    <span style="display:inline-block; margin-top:6px; background:rgba(16,185,129,0.1); color:#10b981; padding:3px 10px; border-radius:20px; font-size:0.78rem; font-weight:700;">$75.000</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid #10b981;">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">2. Guía Quirúrgica de Alta Precisión</strong>
+                    <p style="color:#9ca3af; margin-top:6px;">Plantilla transparente de precisión micrométrica para cirugía de implantes guiada. Permite flapless surgery exacta y mínimamente invasiva. Material estable, biocompatible Clase IIa. Diseñada digitalmente sobre planificación CBCT + software de implantología.</p>
+                    <span style="display:inline-block; margin-top:6px; background:rgba(16,185,129,0.1); color:#10b981; padding:3px 10px; border-radius:20px; font-size:0.78rem; font-weight:700;">$85.000</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid rgba(16,185,129,0.4);">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">3. Cubeta Individual de Impresión</strong>
+                    <p style="color:#9ca3af; margin-top:6px;">Diseñada digitalmente sobre un modelo anatómico primario. Garantiza ajuste personalizado, reduciendo el gasto de silicona/poliéter y mejorando drásticamente la fidelidad de la impresión definitiva en casos complejos con zonas retentivas.</p>
+                    <span style="display:inline-block; margin-top:6px; background:rgba(16,185,129,0.1); color:#10b981; padding:3px 10px; border-radius:20px; font-size:0.78rem; font-weight:700;">$45.000 · Consultar disponibilidad</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL GUÍA CLÍNICA: BIOMODELOS FDM -->
+    <div id="modal-guia-biomodelos" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 30px; border-radius: 12px; max-width: 700px; width: 90%; max-height: 85vh; overflow-y: auto; border: 1px solid #9ca3af;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3 style="color: #d4c5a9; margin: 0; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-skull"></i> Guía Clínica: Biomodelos FDM
+                </h3>
+                <button onclick="document.getElementById('modal-guia-biomodelos').style.display='none'" style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0; width: 30px; height: 30px;">&times;</button>
+            </div>
+
+            <div style="background: rgba(212,197,169,0.08); border: 1px solid rgba(212,197,169,0.3); border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+                <p style="color: #ccc; font-size: 0.9rem; margin: 0; line-height: 1.6;">
+                    Impresión por <strong style="color:#d4c5a9;">tecnología FDM (Filamento)</strong> — ideal para grandes volúmenes óseos. Se entrega curado, lijo fino y listo para uso en planificación quirúrgica, formación o comunicación con el paciente. <strong style="color:#fff;">No exponer a calor directo &gt; 60°C.</strong>
+                </p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid #9ca3af;">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">1. Mandíbula / Maxilar / Parte Ósea Escala 1:1</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">Modelo anatómico de una o ambas arcadas en escala real. Validado dimensionalmente sobre CBCT. Permite planificación quirúrgica física, ejercicio pre-operatorio y comunicación visual con el paciente. Alta resistencia mecánica para manipulación clínica.</p>
+                    <span style="display:inline-block; margin-top:6px; background:rgba(156,163,175,0.1); color:#9ca3af; padding:3px 10px; border-radius:20px; font-size:0.78rem; font-weight:700;">$45.000</span>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid #9ca3af;">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">2. Cráneo Completo / Gran Volumen</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">Biomodelo craneofacial completo para planificación de cirugías reconstructivas, maxilofaciales o de trauma. Escala 1:1. Impresión FDM de gran formato con filamento de alta resistencia. Ideal para comunicación con especialistas, docencia o simulación pre-quirúrgica.</p>
+                    <span style="display:inline-block; margin-top:6px; background:rgba(156,163,175,0.1); color:#9ca3af; padding:3px 10px; border-radius:20px; font-size:0.78rem; font-weight:700;">$85.000</span>
+                </div>
+                <div style="background: rgba(251,146,60,0.05); padding: 12px; border-radius: 8px; border-left: 3px solid #fb923c; margin-top: 5px;">
+                    <strong style="color:#fb923c; font-size:0.85rem;"><i class="fas fa-triangle-exclamation"></i> IMPORTANTE</strong>
+                    <p style="color:#9ca3af; font-size:0.82rem; margin: 6px 0 0;">Los biomodelos FDM <strong style="color:#fff;">NO son biocompatibles</strong> para uso intraoral. Son exclusivos para planificación externa, docencia y comunicación clínica. Para modelos de trabajo intraoral, seleccione la categoría <em>Modelos</em> (resina biocompatible SLA/DLP).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL GUÍA CLÍNICA: DEFINITIVAS -->
+    <div id="modal-guia-definitivas" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 30px; border-radius: 12px; max-width: 700px; width: 90%; max-height: 85vh; overflow-y: auto; border: 1px solid var(--accent-cyan);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3 style="color: var(--accent-cyan); margin: 0; display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-gem"></i> Guía Clínica: Resinas Definitivas
+                </h3>
+                <button onclick="document.getElementById('modal-guia-definitivas').style.display='none'" style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0; width: 30px; height: 30px;">&times;</button>
+            </div>
+            <p style="color: #9ca3af; font-size: 0.9rem; margin-bottom: 20px;">
+                Servicio de impresión 3D en resinas biocompatibles de larga duración (alta carga cerámica). <strong>Nota:</strong> Las piezas se entregan lavadas, fotocuradas y con los soportes retirados, listas para que el laboratorio realice la caracterización, pulido mecánico o glaseado fotopolimerizable final.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-cyan);">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">1. Coronas y Carillas (VarseoSmile / Crowntec)</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">
+                        Restauraciones individuales impresas en resina híbrida. Ofrecen una estética superior, excelente ajuste marginal y un desgaste biomimético similar al esmalte natural.
+                    </p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-cyan);">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">2. Coronas sobre Implantes (Graphy Tera Harz)</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">
+                        Diseñadas para cementarse sobre TiBases. La resina absorbe ligeramente el impacto oclusal, protegiendo el tornillo y la integración del implante.
+                    </p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-cyan);">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">3. All-on-X (Rodin Sculpture)</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">
+                        Rehabilitaciones totales impresas en resinas de máxima resistencia a la flexión. Más del 50% de carga cerámica real. Soportan la carga masticatoria de un arco completo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL GUÍA CLÍNICA: CALCINABLES -->
+    <div id="modal-guia-calcinables" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 30px; border-radius: 12px; max-width: 700px; width: 90%; max-height: 85vh; overflow-y: auto; border: 1px solid #fb923c;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h3 style="color: #fb923c; margin: 0; display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-fire"></i> Guía Clínica: Resinas Calcinables
+                </h3>
+                <button onclick="document.getElementById('modal-guia-calcinables').style.display='none'" style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0; width: 30px; height: 30px;">&times;</button>
+            </div>
+            <p style="color: #9ca3af; font-size: 0.9rem; margin-bottom: 20px;">
+                Servicio de impresión de patrones para técnicas de colado tradicional o inyección de cerámica (ej. E.max). Resinas formuladas para un burnout limpio sin dejar residuos ni cenizas.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid #fb923c;">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">1. Patrones para Coronas y Cofias</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">
+                        Se entregan curadas bajo especificaciones estrictas para evitar expansión en el cilindro de revestimiento. Combustión 100% limpia.
+                    </p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border-left: 3px solid #fb923c;">
+                    <strong style="font-size: 1.1rem; color: #f3f4f6;">2. Esqueletos para PPR</strong>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin-top: 5px;">
+                        Sustituye el encerado manual, ahorrando horas de trabajo. Conectores y retenedores impresos con alta precisión para colado en Cr-Co.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POP-UP DE ALERTA PREMIUM PRODIGY -->
+    <div id="custom-alert-overlay" onclick="if(event.target===this)closeProdigyAlert()" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(6px); z-index:10000; justify-content:center; align-items:center;">
+        <div style="background:#0d1525; border-radius:14px; padding:35px 30px 28px; width:90%; max-width:420px; text-align:center; border:1px solid rgba(255,255,255,0.08); box-shadow:0 20px 60px rgba(0,0,0,0.8); position:relative; overflow:hidden;">
+            <div style="height:3px; background:linear-gradient(90deg,#9B5DE5,#D946A6,#D4AF37); position:absolute; top:0; left:0; right:0;"></div>
+            <h3 id="custom-alert-title" style="color:#e2e8f0; font-size:1.25rem; margin:10px 0 12px; font-weight:700;"></h3>
+            <p id="custom-alert-message" style="color:#a8a8a8; font-size:0.95rem; line-height:1.6; margin-bottom:24px;"></p>
+            <button id="custom-alert-btn" onclick="closeProdigyAlert()" style="background:linear-gradient(135deg,#D946A6,#9B5DE5); color:#fff; border:none; padding:12px 32px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.95rem; letter-spacing:0.5px;"></button>
+        </div>
+    </div>
+
+    <script src="js/flujo-impresion.js"></script>
+
+    <!-- FOOTER GLOBAL PRODIGY -->
+    <footer class="prodigy-global-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>PRODIGY</h4>
+                <ul>
+                    <li>Diseño Dental Digital</li>
+                    <li>Bogotá, Colombia</li>
+                    <li>Alta Precisión CAD/CAM</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>CONTACTO</h4>
+                <ul>
+                    <li><a href="tel:+573212816716">+57 321 281 6716</a></li>
+                    <li><a href="mailto:labdentalprodigy@gmail.com">labdentalprodigy@gmail.com</a></li>
+                    <li><a href="https://instagram.com/prodigydigitaldentistry" target="_blank">@prodigydigitaldentistry</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>SERVICIOS</h4>
+                <ul>
+                    <li><a href="flujo-impresion.html">Impresión 3D</a></li>
+                    <li><a href="flujo-fresado.html">Fresado CAD/CAM</a></li>
+                    <li><a href="seguimiento-caso.html">Seguimiento de Pedidos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>LEGAL</h4>
+                <ul>
+                    <li><a href="terminos-y-legal.html">Términos y Condiciones</a></li>
+                    <li><a href="terminos-y-legal.html#privacidad">Política de Privacidad</a></li>
+                    <li><a href="https://wa.me/573212816716?text=Hola%20equipo%20Prodigy.%20Tengo%20una%20sugerencia%2Freporte%20sobre%20la%20p%C3%A1gina%20web%3A" target="_blank" rel="noopener noreferrer">💡 Sugerencias o Reportar Fallo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2026 PRODIGY Digital Dentistry. Bogotá, Colombia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
